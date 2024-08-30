@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rang Score Board</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .buttonsOne, .buttonsTwo {
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .buttonsOne {
+            /* Specific styles for buttonsOne, if needed */
+        }
+        .buttonsTwo {
+            /* Specific styles for buttonsTwo, if needed */
+        }
+    </style>
+</head>
+<body>
+    <div id="teamNames">
+        <input id="teamOne" type="text" placeholder="Team One">
+        <input id="teamTwo" type="text" placeholder="Team Two">
+        <button id="buttonSubmit">Submit</button>
+    </div>
+    <div id="appContainer">
+        <div id="firstHalfContainer">
+            <div id="firstPlayer"></div>
+            <div id="buttonDivOne">
+                <button id="firstBtnOne" class="buttonsOne" data-state="0"></button>
+                <button id="firstBtnTwo" class="buttonsOne" data-state="0"></button>
+                <button id="firstBtnThree" class="buttonsOne" data-state="0"></button>
+                <button id="firstBtnFour" class="buttonsOne" data-state="0"></button>
+                <button id="firstBtnFive" class="buttonsOne" data-state="0"></button>
+            </div>
+        </div>
+        <div id="resetDiv">
+            <button id="resetButton">Reset</button>
+        </div>
+        <div id="secondHalfContainer">
+            <div id="buttonDivTwo">
+                <button id="secondBtnOne" class="buttonsTwo" data-state="0"></button>
+                <button id="secondBtnTwo" class="buttonsTwo" data-state="0"></button>
+                <button id="secondBtnThree" class="buttonsTwo" data-state="0"></button>
+                <button id="secondBtnFour" class="buttonsTwo" data-state="0"></button>
+                <button id="secondBtnFive" class="buttonsTwo" data-state="0"></button>
+                <div id="secondPlayer"></div>
+
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
