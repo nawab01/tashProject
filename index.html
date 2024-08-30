@@ -6,26 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rang Score Board</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .buttonsOne, .buttonsTwo {
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .buttonsOne {
-            /* Specific styles for buttonsOne, if needed */
-        }
-        .buttonsTwo {
-            /* Specific styles for buttonsTwo, if needed */
-        }
-    </style>
 </head>
 <body>
     <div id="teamNames">
-        <input id="teamOne" type="text" placeholder="Team One">
-        <input id="teamTwo" type="text" placeholder="Team Two">
-        <button id="buttonSubmit">Submit</button>
+        <div>
+            <input id="teamOne" type="text" placeholder="Team One">
+            <input id="teamTwo" type="text" placeholder="Team Two">
+            <button id="buttonSubmit">Submit</button>
+        </div>
     </div>
     <div id="appContainer">
         <div id="firstHalfContainer">
@@ -48,9 +36,9 @@
                 <button id="secondBtnThree" class="buttonsTwo" data-state="0"></button>
                 <button id="secondBtnFour" class="buttonsTwo" data-state="0"></button>
                 <button id="secondBtnFive" class="buttonsTwo" data-state="0"></button>
-                <div id="secondPlayer"></div>
-
             </div>
+            <div id="secondPlayer"></div>
+
         </div>
     </div>
 <script src="script.js"></script>

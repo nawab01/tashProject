@@ -8,3 +8,53 @@
     width: 2rem;
     border-radius: 2rem;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#firstHalfContainer {
+    height: 45vh;
+    width: 100vw;
+}
+#secondHalfContainer {
+    height: 45vh;
+    width: 100vw;
+}
+#resetDiv {
+    height: 5vh;
+}
+
+#buttonDivTwo {
+    height: 100%;
+}
+#teamNames {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+#teamNames div {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+#teamNames input {
+    margin: 0 0 20px 0;
+    height: 35px;
+    border-radius: 20px;
+}
+#teamNames button {
+    margin: 0 0 20px 0;
+    height: 40px;
+    border-radius: 20px;
+}
+#appContainer {
+    text-align: center;
+}

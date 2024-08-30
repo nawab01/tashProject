@@ -12,7 +12,7 @@ const secondPlayer = document.getElementById('secondPlayer');
 function showPlayer() {
     firstPlayer.innerText = teamOne.value;
     secondPlayer.innerText = teamTwo.value;
-        teamNames.style.contentVisibility = 'hidden';
+        teamNames.style.display = 'none';
 
         appContainer.style.contentVisibility = 'visible';
 }
@@ -29,7 +29,9 @@ function coloredButtonOne() {
         }
     })
     if (colorCountOne >= 5) {
-        alert(`Congradulations ${teamOne.value}! You won.`);
+        setTimeout(() => {
+            alert(`Congradulations ${teamOne.value}! You won.`);
+        }, 200);
     }
 }
 
@@ -57,7 +59,9 @@ function coloredButtonTwo() {
         }
     })
     if (colorCountTwo >= 5) {
-        alert(`Congradulations ${teamTwo.value}! You won.`);
+        setTimeout(() => {
+            alert(`Congradulations ${teamTwo.value}! You won.`);
+        }, 200);
     }
 }
 
