@@ -6,7 +6,7 @@ const appContainer = document.getElementById('appContainer');
 const secondPlayer = document.getElementById('secondPlayer'); 
 
 
-    appContainer.style.contentVisibility = 'hidden';
+    appContainer.style.display = 'none';
 
 
 function showPlayer() {
@@ -14,7 +14,7 @@ function showPlayer() {
     secondPlayer.innerText = teamTwo.value;
         teamNames.style.display = 'none';
 
-        appContainer.style.contentVisibility = 'visible';
+        appContainer.style.display = 'visible';
 }
 
 function coloredButtonOne() {
