@@ -20,11 +20,11 @@ html, body {
 }
 
 #firstHalfContainer {
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
 }
 #secondHalfContainer {
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
 }
 #resetDiv {
