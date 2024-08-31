@@ -1,4 +1,4 @@
-Welcome to Rung Score Board. Rung is an extremely niche and complex card game played mostly in some cultures. 
+Welcome to Rung Score Board. Rung is an extremely niche and complex card game played in some cultures. 
 
 As an avid rung player me and my family could spend hours and in some instants, days, playing cards. An important part about rung is doing "court", which can be counted as a win.If a team is up by five courts they win that round. We as a family have always wrestled with this idea of keeping count. To keep counts, we like keeping a nice visual que e.g. toothpicks, napkin balls, made out of rolling napkins up. This has lately been getting out of hand and I see napkin around the house all over.
 
