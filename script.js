@@ -23,14 +23,14 @@ function coloredButtonOne() {
     buttons.forEach(button => {
         const color = window.getComputedStyle(button).backgroundColor;
 
-        if (color === 'rgb(255, 0, 0)') {
+        if (color === 'rgb(127, 237, 55)') {
             colorCountOne++;
             console.log(colorCountOne)
         }
     })
     if (colorCountOne >= 5) {
         setTimeout(() => {
-            alert(`Congradulations ${teamOne.value}! You won.`);
+            alert(`Congratulations ${teamOne.value}! You won.`);
         }, 200);
     }
 }
@@ -54,13 +54,13 @@ function coloredButtonTwo() {
     buttons.forEach(button => {
         const color = window.getComputedStyle(button).backgroundColor;
 
-        if (color === 'rgb(255, 0, 0)') {
+        if (color === 'rgb(127, 237, 55)') {
             colorCountTwo++;
         }
     })
     if (colorCountTwo >= 5) {
         setTimeout(() => {
-            alert(`Congradulations ${teamTwo.value}! You won.`);
+            alert(`Congratulations ${teamTwo.value}! You won.`);
         }, 200);
     }
 }
@@ -71,10 +71,10 @@ function addCourt(event) {
 
     // Toggle color based on current state
     if (currentState % 2 === 0) {
-        clickedButton.style.backgroundColor = 'red';
+        clickedButton.style.backgroundColor = 'rgb(127, 237, 55)';
         clickedButton.setAttribute('data-state', '1');
     } else {
-        clickedButton.style.backgroundColor = 'blue';
+        clickedButton.style.backgroundColor = 'rgb(240, 240, 240)';
         clickedButton.setAttribute('data-state', '0');
     }
 }
