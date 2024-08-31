@@ -23,7 +23,7 @@ function coloredButtonOne() {
     buttons.forEach(button => {
         const color = window.getComputedStyle(button).backgroundColor;
 
-        if (color === 'rgb(127, 237, 55)') {
+        if (color === 'red') {
             colorCountOne++;
             console.log(colorCountOne)
         }
@@ -54,7 +54,7 @@ function coloredButtonTwo() {
     buttons.forEach(button => {
         const color = window.getComputedStyle(button).backgroundColor;
 
-        if (color === 'rgb(127, 237, 55)') {
+        if (color === 'red') {
             colorCountTwo++;
         }
     })
@@ -71,7 +71,7 @@ function addCourt(event) {
 
     // Toggle color based on current state
     if (currentState % 2 === 0) {
-        clickedButton.style.backgroundColor = 'rgb(127, 237, 55)';
+        clickedButton.style.backgroundColor = 'red';
         clickedButton.setAttribute('data-state', '1');
     } else {
         clickedButton.style.backgroundColor = 'rgb(240, 240, 240)';
