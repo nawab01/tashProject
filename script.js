@@ -14,7 +14,7 @@ function showPlayer() {
     secondPlayer.innerText = teamTwo.value;
         teamNames.style.display = 'none';
 
-        appContainer.style.display = 'visible';
+        appContainer.style.display = 'block';
 }
 
 function coloredButtonOne() {
